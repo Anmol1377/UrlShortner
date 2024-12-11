@@ -44,3 +44,12 @@ This is a simple URL shortener service built using Go. It allows you to shorten 
 {
   "url": "https://example.com"
 }
+ ```
+ **Response Body**:
+    ```json
+    {
+      "short_url": "http://localhost:3000/redirect/d87dyd8d",
+      "original_url": "https://example.com"
+    }
+    ```
+
